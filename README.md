@@ -86,6 +86,7 @@ flask run
 ```bash
 # Build the React application
 npm run build
+npm start
 ```
 
 #### Backend
