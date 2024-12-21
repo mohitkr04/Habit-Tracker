@@ -58,6 +58,18 @@ npm install
 ```bash
 # Navigate to the backend directory
 cd backend
+
+# Create a virtual environment
+python -m venv venv
+
+# Activate the virtual environment (Windows)
+venv\Scripts\activate
+
+# Activate the virtual environment (Mac/Linux)
+source venv/bin/activate
+
+# Install Python dependencies
+pip install -r requirements.txt
 ```
 
 ### Step 4: Start the Development Servers
@@ -66,7 +78,6 @@ cd backend
 # Start the backend server
 cd backend
 flask run
-
 ```
 
 ### Step 5: Build for Production
@@ -97,6 +108,6 @@ flask run
 
 ## 🤝 Contributing
 
-I welcome contributions to improve Habit-Tracker. Feel free to submit issues or pull requests via [GitHub](https://github.com/mohitkr04/habit-tracker).
+We welcome contributions to improve Habit-Tracker. Feel free to submit issues or pull requests via [GitHub](https://github.com/mohitkr04/habit-tracker).
 
 ---
