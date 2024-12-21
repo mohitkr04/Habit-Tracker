@@ -1,0 +1,10 @@
+.habit {
+	/* position: relative; */
+	background-color: var(--bg-color-primary);
+	border-radius: var(--border-radius-primary);
+	overflow: hidden;
+}
+
+.content {
+	padding: 0 0.6rem 0.6rem;
+}

@@ -1,0 +1,40 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var(--header-height);
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	background-color: var(--bg);
+
+	padding: 0 1.6rem;
+	z-index: 99;
+}
+
+/* logo */
+.logoWrapper {
+	/* outline: 1px solid tomato; */
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+}
+
+.logo {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.header h1 {
+	font-size: 1.6rem;
+}
+
+/* btnsWrapper */
+.navList {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
